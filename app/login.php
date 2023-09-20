@@ -37,7 +37,7 @@
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                                 <label class="custom-control-label" for="customCheck1">Setuju dengan syarat dan ketentuan.</label>
                             </div>
-                            <a href="home.php" class="btn btn-block btn-primary mb-4">Proses Daftar</a>
+                            <a href="home.php" class="btn btn-block btn-primary mb-4">Proses Login</a>
                             <hr>
                             <p class="mb-0 text-muted">Belum punya akun? <a href="index.html" class="f-w-400">daftar</a></p>
                             <p class="mb-2 text-muted">Lupa password? <a href="auth-reset-password.html" class="f-w-400">Reset</a></p>
