@@ -47,7 +47,7 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
-                        <img class="img-fluid" src="img/logo_hijau.png" alt="Icon" style="width: 60px; ">
+                        <img class="img-fluid" src="img/logo_top.png" alt="Icon" style="width: 60px; ">
                     </div>
                     <h1 class="m-0 text-primary">E CANTEEN</h1>
                 </a>
@@ -59,193 +59,67 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#" class="nav-item nav-link">Produk Kami</a>
                         
-                        <a href="#" class="nav-item nav-link">Pesanan</a>
+                        <a href="#" class="nav-item nav-link">Pesanan
+
+                            <span class="badge bg-primary text-white" id="cart-badge">0</span>
+                        </a>
                     </div>
-                    <a href="app/index.html" class="btn btn-primary px-3 d-none d-lg-flex">Anda Punya Kantin ?</a>
+                    <a href="app/index.php" class="btn btn-primary px-3 d-none d-lg-flex">Anda Punya Kantin ?</a>
                 </div>
             </nav>
         </div>
         <!-- Navbar End -->
 
 
-        <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Temukan <span class="text-primary">Kantin</span> di sekitar mu</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Sarapan, makan siang, atau makan malam? Cari kantin terbaik di sekitarmu! 🍽️.</p>
-                    <a href="#form-search" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Temukan</a>
-                </div>
-                <div class="col-md-6 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/slider/1.png" alt="">
-                        </div>
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/slider/2.png" alt="">
-                        </div>
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/slider/3.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header End -->
 
 
-        <!-- Search Start -->
-        <div id="form-search" class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
-            <div class="container">
-                <div class="row g-2">
-                    <div class="col-md-10">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Cari lokasi atau menu makanan">
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select border-0 py-3">
-                                    <option selected>Urutkan Berdasarkan</option>
-                                    <option value="1">Terdekat</option>
-                                    <option value="2">Termurah</option>
-                                    <option value="3">Terlaris</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select border-0 py-3">
-                                    <option selected>Lokasi</option>
-                                    <option value="1">Basuki Rahmat - Palrmbang</option>
-                                    <option value="1">Suduriman - Palrmbang</option>
-                                    <option value="1">Kol Atmo - Palrmbang</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-dark border-0 w-100 py-3">Search</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Search End -->
+        
 
 
-        <!-- Category Start -->
+        <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Selamat Datang di E-Canteen: Pengalaman Kantin Modern</h1>
-                    <p>Kami dengan bangga mempersembahkan E-Canteen, solusi inovatif untuk menjadikan pengalaman berbelanja makanan dan minuman Anda lebih nyaman. Dengan E-Canteen, kami memadukan kemudahan berbelanja online dengan rasa makanan yang hanya bisa Anda temukan di sini.</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
-                                </div>
-                                <h6>Menu Variatif</h6>
-                                <!-- <span>123 Properties</span> -->
-                            </div>
-                        </a>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/kantin/1.png">
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-deal.png" alt="Icon">
-                                </div>
-                                <h6>Pembayaran Praktis</h6>
-                                <!-- <span>123 Properties</span> -->
-                            </div>
-                        </a>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Kantin PalComTech  </h1>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href=""> <i class="fab fa-whatsapp"></i> Hubungi Pengelola Kantin</a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
-                                </div>
-                                <h6>Layanan Pengiriman</h6>
-                                <!-- <span>123 Properties</span> -->
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
-                                </div>
-                                <h6>Harga Ekonomis</h6>
-                                <!-- <span>123 Properties</span> -->
-                            </div>
-                        </a>
-                    </div>
-                    <!-- <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
-                                </div>
-                                <h6>Building</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-neighborhood.png" alt="Icon">
-                                </div>
-                                <h6>Townhouse</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-condominium.png" alt="Icon">
-                                </div>
-                                <h6>Shop</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-luxury.png" alt="Icon">
-                                </div>
-                                <h6>Garage</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div> -->
                 </div>
             </div>
-        </div>
-        <!-- Category End -->
+        </div> 
+        <!-- About End -->
 
 
         <!-- Property List Start -->
         <div class="container-xxl py-5">
             <div class="container">
+                <div id="cart" class="cart d-none ">
+                    <h4>Your Cart</h4>
+                    <ul id="cart-items" class="cart-items">
+                        <!-- Cart items will be dynamically added here -->
+                    </ul>
+                    <p>Total: <span id="cart-total">Rp. 0</span></p>
+                </div>
                 <div class="row g-0 gx-5 align-items-end">
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3">Kantin Favorit berdasarkan lokasi Anda</h1>
-                            <p>Jelajahi berbagai pilihan makanan dan minuman lezat dari kantin-kantin favorit yang terletak dekat dengan lokasi Anda. Kami telah memilihkan Anda beberapa tempat makan populer untuk menikmati kuliner lokal dan internasional di sekitar Anda.</p>
+                            <h1 class="mb-3">Menu Tersedia</h1>
+                            <!-- <p>Jelajahi berbagai pilihan makanan dan minuman lezat dari kantin-kantin favorit yang terletak dekat dengan lokasi Anda. Kami telah memilihkan Anda beberapa tempat makan populer untuk menikmati kuliner lokal dan internasional di sekitar Anda.</p> -->
                         </div>
                     </div>
                     <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                         <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                             <li class="nav-item me-2">
-                                <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Terdekat</a>
+                                <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Pomo</a>
                             </li>
                             <li class="nav-item me-2">
                                 <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Terlaris</a>
@@ -262,114 +136,109 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href="produk.html"><img class="img-fluid" src="img/kantin/1.png" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">100 Meter</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Kantin</div>
+                                        <a href=""><img class="img-fluid" src="img/menu.png" alt=""></a>
+                                        <div class="bg-danger rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Diskon 20%</div>
+                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Kantin</div> -->
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mulai Dari Rp. 10.000</h5>
-                                        <a class="d-block h5 mb-2" href="produk.html">Kantin PalComTech</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jalan basuki Rahmat</p>
+                                        <h5 class="text-primary mb-3">Rp. 10.000</h5>
+                                        <a class="d-block h5 mb-2" href="">Lunch Paket 1</a>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-utensils text-primary me-2"></i>Dine in</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-shopping-bag text-primary me-2"></i>Take Away</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-chair  text-primary me-2"></i>Booking</small>
+                                        <small class="flex-fill text-center border-end py-2 increase-quantity"><i class="fa fa-plus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center border-end py-2 decrease-quantity"><i class="fa fa-minus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-check-circle text-primary me-2"></i><span class="item-quantity">0</span></small>
                                     </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/kantin/2.png" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">150 Meter</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Cafe</div>
+                                        <a href=""><img class="img-fluid" src="img/menu.png" alt=""></a>
+                                        <div class="bg-danger rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Diskon 30%</div>
+                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Cafe</div> -->
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mulai Dari Rp. 10.000</h5>
-                                        <a class="d-block h5 mb-2" href="">Sehati Cafe</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jalan basuki Rahmat</p>
+                                        <h5 class="text-primary mb-3">Rp. 10.000</h5>
+                                        <a class="d-block h5 mb-2" href="">Lunch Paket 2</a>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-utensils text-primary me-2"></i>Dine in</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-shopping-bag text-primary me-2"></i>Take Away</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-chair  text-primary me-2"></i>Booking</small>
+                                        <small class="flex-fill text-center border-end py-2 increase-quantity"><i class="fa fa-plus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center border-end py-2 decrease-quantity"><i class="fa fa-minus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-check-circle text-primary me-2"></i><span class="item-quantity">0</span></small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/kantin/3.png" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">100 Meter</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Rumah Makan Padang</div>
+                                        <a href=""><img class="img-fluid" src="img/menu.png" alt=""></a>
+                                        <div class="bg-danger rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Diskon 20%</div>
+                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Rumah Makan Padang</div> -->
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mulai Dari Rp. 10.000</h5>
-                                        <a class="d-block h5 mb-2" href="">Bundo Kanduang</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jalan basuki Rahmat</p>
+                                        <h5 class="text-primary mb-3">Rp. 10.000</h5>
+                                        <a class="d-block h5 mb-2" href="">Lunch Paket 3</a>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-utensils text-primary me-2"></i>Dine in</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-shopping-bag text-primary me-2"></i>Take Away</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-chair  text-primary me-2"></i>Booking</small>
+                                        <small class="flex-fill text-center border-end py-2 increase-quantity"><i class="fa fa-plus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center border-end py-2 decrease-quantity"><i class="fa fa-minus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-check-circle text-primary me-2"></i><span class="item-quantity">0</span></small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/kantin/4.png" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">150 Meter</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Kantin</div>
+                                        <a href=""><img class="img-fluid" src="img/menu.png" alt=""></a>
+                                        <div class="bg-danger rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Diskon 30%</div>
+                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Kantin</div> -->
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mulai Dari Rp. 10.000</h5>
-                                        <a class="d-block h5 mb-2" href="">Kantin Bude Sri</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jalan basuki Rahmat</p>
+                                        <h5 class="text-primary mb-3">Rp. 10.000</h5>
+                                        <a class="d-block h5 mb-2" href="">Lunch Paket 4</a>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-utensils text-primary me-2"></i>Dine in</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-shopping-bag text-primary me-2"></i>Take Away</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-chair  text-primary me-2"></i>Booking</small>
+                                        <small class="flex-fill text-center border-end py-2 increase-quantity"><i class="fa fa-plus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center border-end py-2 decrease-quantity"><i class="fa fa-minus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-check-circle text-primary me-2"></i><span class="item-quantity">0</span></small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/kantin/5.png" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">100 Meter</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Angkringan</div>
+                                        <a href=""><img class="img-fluid" src="img/menu.png" alt=""></a>
+                                        <div class="bg-danger rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Diskon 20%</div>
+                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Angkringan</div> -->
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mulai Dari Rp. 10.000</h5>
-                                        <a class="d-block h5 mb-2" href="">Pecel Lele Pak de</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jalan basuki Rahmat</p>
+                                        <h5 class="text-primary mb-3">Rp. 10.000</h5>
+                                        <a class="d-block h5 mb-2" href="">Lunch Paket 5</a>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-utensils text-primary me-2"></i>Dine in</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-shopping-bag text-primary me-2"></i>Take Away</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-chair  text-primary me-2"></i>Booking</small>
+                                        <small class="flex-fill text-center border-end py-2 increase-quantity"><i class="fa fa-plus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center border-end py-2 decrease-quantity"><i class="fa fa-minus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-check-circle text-primary me-2"></i><span class="item-quantity">0</span></small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/kantin/6.png" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">150 Meter</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Angkringan</div>
+                                        <a href=""><img class="img-fluid" src="img/menu.png" alt=""></a>
+                                        <div class="bg-danger rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Diskon 30%</div>
+                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Angkringan</div> -->
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">Mulai Dari Rp. 10.000</h5>
-                                        <a class="d-block h5 mb-2" href="">Angkringan Simpang Lima</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Jalan Sukabangun 2</p>
+                                        <h5 class="text-primary mb-3">Rp. 10.000</h5>
+                                        <a class="d-block h5 mb-2" href="">Lunch Paket 6</a>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-utensils text-primary me-2"></i>Dine in</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-shopping-bag text-primary me-2"></i>Take Away</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-chair  text-primary me-2"></i>2 Bath</small>
+                                        <small class="flex-fill text-center border-end py-2 increase-quantity"><i class="fa fa-plus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center border-end py-2 decrease-quantity"><i class="fa fa-minus text-primary me-2"></i></small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-check-circle text-primary me-2"></i><span class="item-quantity">0</span></small>
                                     </div>
                                 </div>
                             </div>
@@ -599,6 +468,98 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuItems = document.querySelectorAll(".property-item");
+        const cartItems = document.getElementById("cart-items");
+        const cartTotal = document.getElementById("cart-total");
+
+        let cartData = [];
+        let totalOrderQuantity = 0;
+
+        function updateCart() {
+            cartItems.innerHTML = "";
+            let total = 0;
+
+            cartData.forEach((item) => {
+                const cartItem = document.createElement("li");
+                cartItem.innerHTML = `
+                    ${item.name} - Rp. ${item.price} x ${item.quantity}
+                    <button class="remove-item" data-name="${item.name}">Remove</button>
+                `;
+                cartItems.appendChild(cartItem);
+                total += item.price * item.quantity;
+            });
+
+            cartTotal.textContent = `Rp. ${total}`;
+            updateTotalOrderQuantity(); // Update the total order quantity
+        }
+
+        function addToCart(name, price) {
+            const existingItem = cartData.find((item) => item.name === name);
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cartData.push({ name, price, quantity: 1 });
+            }
+            updateCart();
+        }
+
+        function updateTotalOrderQuantity() {
+            totalOrderQuantity = cartData.reduce((total, item) => total + item.quantity, 0);
+        }
+
+        menuItems.forEach((item) => {
+            const itemName = item.querySelector("a").textContent;
+            const itemPrice = parseInt(item.querySelector(".text-primary").textContent.split(" ")[1].replace(".", ""), 10);
+            const addToCartButton = item.querySelector(".increase-quantity");
+            const removeFromCartButton = item.querySelector(".decrease-quantity");
+            const itemQuantityDisplay = item.querySelector(".item-quantity");
+
+            let quantity = 0;
+
+            // Function to update the quantity display
+            function updateQuantity() {
+                itemQuantityDisplay.textContent = quantity;
+            }
+
+            addToCartButton.addEventListener("click", () => {
+                quantity++;
+                updateQuantity();
+                addToCart(itemName, itemPrice);
+                // Show a toastr notification with the total order quantity
+                toastr.success(`Added to cart. Total order quantity: ${totalOrderQuantity}`);
+                $('#cart-badge').html(totalOrderQuantity);
+            });
+
+            removeFromCartButton.addEventListener("click", () => {
+                if (quantity > 0) {
+                    quantity--;
+                    updateQuantity();
+                }
+            });
+        });
+
+        cartItems.addEventListener("click", (e) => {
+            if (e.target.classList.contains("remove-item")) {
+                const itemName = e.target.getAttribute("data-name");
+                const itemIndex = cartData.findIndex((item) => item.name === itemName);
+                if (itemIndex !== -1) {
+                    cartData.splice(itemIndex, 1);
+                    updateCart();
+                }
+            }
+        });
+    });
+</script>
+
+
+
 </body>
 
 </html>
