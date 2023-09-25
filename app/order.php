@@ -27,7 +27,7 @@ include "inc/header.php" ;
                         <div class="card-body">
                             <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link text-uppercase active" id="order-menunggu-tab" data-toggle="tab" href="#order-menunggu" role="tab" aria-controls="order-menunggu" aria-selected="true">Order Menunggu</a>
+                                    <a class="nav-link text-uppercase active" id="order-menunggu-tab" data-toggle="tab" href="#order-menunggu" role="tab" aria-controls="order-menunggu" aria-selected="true">Sedang diproses</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-uppercase" id="order-selesai-tab" data-toggle="tab" href="#order-selesai" role="tab" aria-controls="order-selesai" aria-selected="false">Order Selesai</a>

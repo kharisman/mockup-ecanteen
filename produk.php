@@ -59,7 +59,7 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#" class="nav-item nav-link">Produk Kami</a>
                         
-                        <a href="#" class="nav-item nav-link">Pesanan
+                        <a href="app/konsumen_sign.php" class="nav-item nav-link">Pesanan
 
                             <span class="badge bg-primary text-white" id="cart-badge">0</span>
                         </a>
