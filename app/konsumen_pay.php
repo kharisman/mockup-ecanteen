@@ -15,6 +15,12 @@ $metodePembayaran = [
     "Dana",
     "Gopay",
 ];
+
+// Simulasi data metode pengambilan
+$metodePengambilan = [
+    "Ambil_sendiri",
+    "Ojek_online",
+];
 ?>
 
 <?php include "inc/konsumen_header.php"; ?>
@@ -32,7 +38,7 @@ $metodePembayaran = [
                                 <hr>
                                 <div class="row">
                                     <!-- Daftar Item yang diorder -->
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <h6>Item yang diorder:</h6>
                                         <ul>
                                             <?php foreach ($items as $item) { ?>
@@ -40,8 +46,25 @@ $metodePembayaran = [
                                             <?php } ?>
                                         </ul>
                                     </div>
+
+                                    <!-- Metode Pengambilan -->
+                                    
+                                    <div class="col-md-4">
+                                        <h6>Pilih Metode Pengambilan:</h6>
+                                        <form id="pengambilanForm" action="proses_pengambilan.php" method="post">
+                                            <div class="form-check">
+                                                <?php foreach ($metodePengambilan as $pengambilan) { ?>
+                                                    <input class="form-check-input" type="radio" name="metode_pengambilan" id="<?php echo strtolower($pengambilan); ?>" value="<?php echo $pengambilan; ?>">
+                                                    <label class="form-check-label" for="<?php echo strtolower($pengambilan); ?>">
+                                                        <?php echo str_replace('_', ' ', $pengambilan); ?>
+                                                    </label><br>
+                                                <?php } ?>
+                                            </div>
+                                        </form>
+                                    </div>
+
                                     <!-- Opsi Pembayaran -->
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <h6>Pilih Metode Pembayaran:</h6>
                                         <form id="pembayaranForm" action="proses_pembayaran.php" method="post">
                                             <div class="form-check">
@@ -56,6 +79,8 @@ $metodePembayaran = [
                                         </form>
                                     </div>
                                 </div>
+
+                                
                             </div>
                         </div>
                         <!-- [ Main Content ] end -->
